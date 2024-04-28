@@ -2,7 +2,7 @@ body{
     margin: 0;
 }
 #navbar{
-    background-color: #ccc;
+    background-color:gray;
     padding: 16px;
     display: flex;
     list-style: none;
@@ -16,34 +16,116 @@ body{
     padding-right: 30px;
 }
 #header-link:hover{
-    color: rgb(0, 94, 255);
+    color: white;
 }
 #footer-bg{
-    background-color: lightslategray;
-    padding: 72px;
+    background-color: lightcyan;
+    padding: 12px;
     margin-bottom: 0px;
 }
 #sect-one{
-    background-color: lightpink;
-    padding: 300px;
+    background-color: rgb(108, 156, 239);
+    padding: 3%;
 }
-#signin-btn, #login-btn{
+#signup-btn, #login-btn{
     background-color: rgb(46, 113, 152);
     color: white;
     padding: 10px 16px;
     font-size: 16px;
     font-weight: 600;
-    margin-left: 100px;border-radius: 10px;
+    margin-left: 100px;
+    border-radius: 10px;
 }
-#signin-btn:hover, #login-btn:hover{
-    background-color: palevioletred;
+#signup-btn:hover, #login-btn:hover{
+    background-color: #ffffff;
     color: black;
 }
 #footer-logos{
-    height: 40px;
-    width: 50px ;
+    height: 35px;
+    width: 37px ;
     display: inline;
 }
 li{
     list-style: none;
 }
+textarea{
+    width: 350px;
+    height: 200px;
+    font-size: 16px;
+}
+#form-full{
+    background-color: lavender;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    
+}
+#input-element{
+    padding-left: 80px;
+    line-height: 1.2;
+}
+p{
+    font-size: 22px;
+    font-weight: 500;
+}
+#input-box{
+    width: 360px;
+    height: 21px;
+}
+h1{
+    text-align: center;
+    font-size: 33px;
+    color: teal;
+}
+h2{
+    text-align: center;
+    font-size: 29px;
+    color: black;
+}
+#submit-btn{
+    padding: 10px 18px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: lightblue;
+    margin-top: 35px;
+    border-radius: 8px;
+    position: relative;
+    left: 95px;
+}
+#submit-btn:hover{
+        background-color: #ff75;
+}
+#form-login{
+    background-color: lavender;
+    height: 360px;
+    width: 355px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    padding-top: 12px;
+    padding-right: 120px;
+    padding-bottom: 30px;
+    line-height: 1.2;
+}
+#input-container{
+    width: 300px;
+    height: 25px;
+}
+#country-img{
+    width: 350px;
+    height: 370px;
+}
+#country-name{
+    text-align: center;
+    font-size: 24px;
+    
+}
+#country-name-container{
+    background-color: lavender;
+    padding: 6px,;
+}
+
