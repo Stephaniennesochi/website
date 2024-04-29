@@ -1,5 +1,6 @@
 body{
     margin: 0;
+
 }
 #navbar{
     background-color:gray;
@@ -127,5 +128,15 @@ h2{
 #country-name-container{
     background-color: lavender;
     padding: 6px,;
+}
+#input-words{
+    font-size: 20px;
+    padding-left: 8px;
+    padding-right: 21px;
+}
+#cover-photo{
+    width: 1475px; height: 600px;
+    margin: 0;
+
 }
 
