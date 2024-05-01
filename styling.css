@@ -139,4 +139,19 @@ h2{
     margin: 0;
 
 }
-
+#review-template{
+    background-color: lavender;
+    border-radius: 12px;
+    height: 500px;
+    width: 350px;
+    margin-left: 6px;
+    margin-bottom: 15px;
+}
+#review-template:hover{
+    background-color: white;
+}
+span{
+    font-size: 17px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
