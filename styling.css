@@ -22,11 +22,14 @@ body{
 #footer-bg{
     background-color: lightcyan;
     padding: 12px;
-    margin-bottom: 0px;
+    margin-top: 0px;
+
 }
 #sect-one{
     background-color: rgb(108, 156, 239);
-    padding: 3%;
+    padding-top: 4px;
+    padding-left: 55px;
+    padding-bottom: 16px;
 }
 #signup-btn, #login-btn{
     background-color: rgb(46, 113, 152);
@@ -44,7 +47,6 @@ body{
 #footer-logos{
     height: 35px;
     width: 37px ;
-    display: inline;
 }
 li{
     list-style: none;
@@ -63,15 +65,23 @@ textarea{
     margin-left: auto;
     margin-right: auto;
     width: 550px;
+    margin-top: 31px;
+    margin-bottom: 24px;
     
 }
 #input-element{
     padding-left: 80px;
-    line-height: 1.2;
+    line-height: 1.4;
+}
+table{
+    padding-left: 50px;
 }
 p{
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
+    padding-bottom: 10px;
+    margin: 0;
+    padding-top: 19px;
 }
 #input-box{
     width: 360px;
@@ -111,6 +121,9 @@ h2{
     padding-right: 120px;
     padding-bottom: 30px;
     line-height: 1.2;
+    margin-top: 6px;
+    margin-top: 31px;
+    margin-bottom: 24px;
 }
 #input-container{
     width: 300px;
@@ -120,22 +133,13 @@ h2{
     width: 350px;
     height: 370px;
 }
-#country-name{
-    text-align: center;
-    font-size: 24px;
-    
-}
-#country-name-container{
-    background-color: lavender;
-    padding: 6px,;
-}
 #input-words{
     font-size: 20px;
     padding-left: 8px;
     padding-right: 21px;
 }
 #cover-photo{
-    width: 1475px; height: 600px;
+    width: 1520px; height: 600px;
     margin: 0;
 
 }
@@ -144,8 +148,11 @@ h2{
     border-radius: 12px;
     height: 500px;
     width: 350px;
-    margin-left: 6px;
-    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 1px;
+    margin-bottom: 12px;
+    padding-left: 7px;
+    padding-right: 2px;
 }
 #review-template:hover{
     background-color: white;
@@ -165,4 +172,23 @@ span{
     padding-left: 85px;
     padding-top: 18px;
     
+}
+
+#footer-writeup{
+}
+
+#sectt-one{
+    background-color: rgb(108, 156, 239);
+    padding-top: 2px ;
+
+}
+#secttt-one{
+    background-color: rgb(108, 156, 239);
+    padding-top: 2px ;
+}
+#footer-head, #footer-data, #footer-row{
+    padding-left: 94px;
+    font-size: 20px;
+    position: relative;
+    bottom: 85px;
 }
